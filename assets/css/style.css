@@ -71,14 +71,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 94px;
 }
 .nav-logo {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
-.nav-logo img { height: 46px; width: auto; display: block; }
+.nav-logo img { width: 270px; max-width: 62vw; height: auto; display: block; }
 
 .nav-links { display: flex; gap: 1.8rem; list-style: none; align-items: center; }
 .nav-links a {
@@ -432,8 +432,9 @@ nav {
   margin-bottom: 1.2rem;
 }
 .footer-logo-img {
-  height: 62px;
-  width: auto;
+  width: 290px;
+  max-width: 100%;
+  height: auto;
   display: block;
   background: var(--white);
   padding: .55rem .8rem;
@@ -504,7 +505,7 @@ nav {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 70px; left: 0; right: 0;
+  top: 100%; left: 0; right: 0;
   background: var(--white);
   padding: 1rem 2rem 1.5rem;
   box-shadow: 0 10px 30px rgba(10,31,68,.1);
