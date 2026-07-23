@@ -74,13 +74,11 @@ nav {
   height: 70px;
 }
 .nav-logo {
-  font-size: 1.45rem;
-  font-weight: 800;
-  letter-spacing: -.02em;
-  color: var(--blue-dark);
+  display: flex;
+  align-items: center;
   text-decoration: none;
 }
-.nav-logo span { color: var(--blue); }
+.nav-logo img { height: 46px; width: auto; display: block; }
 
 .nav-links { display: flex; gap: 1.8rem; list-style: none; align-items: center; }
 .nav-links a {
@@ -433,8 +431,15 @@ nav {
   letter-spacing: .1em;
   margin-bottom: 1.2rem;
 }
-.footer-logo-text { font-size: 1.7rem; font-weight: 800; color: var(--white); letter-spacing: -.02em; margin-bottom: .6rem; }
-.footer-logo-text span { color: #7eb8ff; }
+.footer-logo-img {
+  height: 62px;
+  width: auto;
+  display: block;
+  background: var(--white);
+  padding: .55rem .8rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
 .footer p { font-size: .82rem; line-height: 1.7; font-weight: 400; }
 
 .footer-contact { list-style: none; }
