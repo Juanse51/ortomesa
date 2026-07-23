@@ -226,57 +226,63 @@
 
     <div class="services-grid">
 
-      <div class="svc-card">
+      <div class="svc-card" data-service="1">
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img1.jpg" alt="Lesión de rodilla">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
           <h3 data-i18n="svc1_title">Lesión de rodilla</h3>
           <p data-i18n="svc1_text">Las lesiones de rodilla son comunes y pueden afectar a personas de todas las edades y niveles de actividad.</p>
+          <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
       </div>
 
-      <div class="svc-card">
+      <div class="svc-card" data-service="2">
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img2.jpg" alt="Lesión de hombro">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
           <h3 data-i18n="svc2_title">Lesión de hombro</h3>
           <p data-i18n="svc2_text">Las lesiones de hombro pueden ser debilitantes y afectar significativamente la calidad de vida de una persona.</p>
+          <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
       </div>
 
-      <div class="svc-card">
+      <div class="svc-card" data-service="3">
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img3.jpg" alt="Lesión de codo">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
           <h3 data-i18n="svc3_title">Lesión de codo</h3>
           <p data-i18n="svc3_text">El codo es susceptible a diversas lesiones que limitan la flexión, extensión y rotación del antebrazo.</p>
+          <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
       </div>
 
-      <div class="svc-card">
+      <div class="svc-card" data-service="4">
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img4.jpg" alt="Lesión de pie">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
           <h3 data-i18n="svc4_title">Lesión de pie</h3>
           <p data-i18n="svc4_text">Las lesiones de pie pueden afectar gravemente la movilidad y la calidad de vida de una persona.</p>
+          <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
       </div>
 
-      <div class="svc-card">
+      <div class="svc-card" data-service="5">
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img5.jpg" alt="Ondas de choque">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
           <h3 data-i18n="svc5_title">Ondas de choque</h3>
           <p data-i18n="svc5_text">Técnica no invasiva que utiliza ondas acústicas de alta energía para estimular la curación y reducir el dolor.</p>
+          <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
       </div>
 
-      <div class="svc-card">
+      <div class="svc-card" data-service="6">
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img6.jpg" alt="Células regenerativas">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
           <h3 data-i18n="svc6_title">Células regenerativas</h3>
           <p data-i18n="svc6_text">Repara tejidos dañados y estimula la regeneración natural del cuerpo con tus propios recursos biológicos.</p>
+          <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
       </div>
 
@@ -374,6 +380,29 @@
        Desarrollado por <a href="https://vamosarayar.com/" target="_blank">Rayar</a></p>
   </div>
 </footer>
+
+<!-- ══════════════════════════════════════════
+     MODAL DE SERVICIOS
+════════════════════════════════════════════ -->
+<div class="svc-modal-overlay" id="svcModalOverlay">
+  <div class="svc-modal" role="dialog" aria-modal="true" aria-labelledby="svcModalTitle">
+    <button class="svc-modal-close" id="svcModalClose" aria-label="Cerrar">&times;</button>
+    <img class="svc-modal-img" id="svcModalImg" src="" alt="">
+    <div class="svc-modal-body">
+      <h3 id="svcModalTitle"></h3>
+      <p class="svc-modal-desc" id="svcModalDesc"></p>
+      <h4><i class="fa fa-briefcase-medical"></i> <span data-i18n="modal_treatment_label">Tratamiento</span></h4>
+      <ul id="svcModalTreatment"></ul>
+      <h4><i class="fa fa-heart-pulse"></i> <span data-i18n="modal_recovery_label">Recomendaciones para la recuperación</span></h4>
+      <ul id="svcModalRecovery"></ul>
+      <p class="svc-modal-note" data-i18n="modal_disclaimer">Esta información es orientativa: cada caso se evalúa de forma individual en consulta.</p>
+      <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
+         class="btn-blue" target="_blank">
+        <i class="fab fa-whatsapp"></i> <span data-i18n="modal_cta">Agenda tu valoración</span>
+      </a>
+    </div>
+  </div>
+</div>
 
 <!-- ── WhatsApp FAB ── -->
 <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
