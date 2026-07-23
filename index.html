@@ -26,12 +26,24 @@
   <div class="inner">
     <div class="info">
       <span><i class="fa fa-envelope"></i> ortomesa@hotmail.com</span>
-      <span><i class="fa fa-clock"></i> Lun – Vie &nbsp;8:00 am – 5:00 pm</span>
+      <span><i class="fa fa-clock"></i> <span data-i18n="topbar_hours">Lun – Vie &nbsp;8:00 am – 5:00 pm</span></span>
     </div>
-    <div class="socials">
-      <a href="https://www.facebook.com/profile.php?id=100063508813069" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/ortomesa/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.youtube.com/@ortomesaortopediaarmenia9429" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    <div class="right">
+      <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=100063508813069" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/ortomesa/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@ortomesaortopediaarmenia9429" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="es" title="Español" aria-label="Ver en español">
+          <svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="10" fill="#FCD116"/><rect y="10" width="30" height="5" fill="#003893"/><rect y="15" width="30" height="5" fill="#CE1126"/></svg>
+          <span>ES</span>
+        </button>
+        <button class="lang-btn" data-lang="en" title="English" aria-label="View in English">
+          <svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#B22234"/><g fill="#fff"><rect y="1.54" width="30" height="1.54"/><rect y="4.62" width="30" height="1.54"/><rect y="7.69" width="30" height="1.54"/><rect y="10.77" width="30" height="1.54"/><rect y="13.85" width="30" height="1.54"/><rect y="16.92" width="30" height="1.54"/></g><rect width="12" height="10.77" fill="#3C3B6E"/><g fill="#fff"><circle cx="2" cy="1.8" r=".55"/><circle cx="6" cy="1.8" r=".55"/><circle cx="10" cy="1.8" r=".55"/><circle cx="4" cy="3.8" r=".55"/><circle cx="8" cy="3.8" r=".55"/><circle cx="2" cy="5.8" r=".55"/><circle cx="6" cy="5.8" r=".55"/><circle cx="10" cy="5.8" r=".55"/><circle cx="4" cy="7.8" r=".55"/><circle cx="8" cy="7.8" r=".55"/></g></svg>
+          <span>EN</span>
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -46,14 +58,14 @@
            alt="Jorge Iván Mesa – Ortopedia Especializada">
     </a>
     <ul class="nav-links">
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#conoceme">¿Quiénes somos?</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#" data-i18n="nav_home">Inicio</a></li>
+      <li><a href="#conoceme" data-i18n="nav_about">¿Quiénes somos?</a></li>
+      <li><a href="#servicios" data-i18n="nav_services">Servicios</a></li>
+      <li><a href="#testimonios" data-i18n="nav_testimonials">Testimonios</a></li>
       <li>
         <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
            target="_blank" class="nav-cta">
-          <i class="fab fa-whatsapp"></i>&nbsp; Agenda una cita
+          <i class="fab fa-whatsapp"></i>&nbsp; <span data-i18n="nav_cta">Agenda una cita</span>
         </a>
       </li>
     </ul>
@@ -64,13 +76,13 @@
 
   <!-- Menú móvil -->
   <div class="mobile-menu" id="mobileMenu">
-    <a href="#">Inicio</a>
-    <a href="#conoceme">¿Quiénes somos?</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#testimonios">Testimonios</a>
+    <a href="#" data-i18n="nav_home">Inicio</a>
+    <a href="#conoceme" data-i18n="nav_about">¿Quiénes somos?</a>
+    <a href="#servicios" data-i18n="nav_services">Servicios</a>
+    <a href="#testimonios" data-i18n="nav_testimonials">Testimonios</a>
     <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
        target="_blank" class="nav-cta">
-      <i class="fab fa-whatsapp"></i> Agenda una cita
+      <i class="fab fa-whatsapp"></i> <span data-i18n="nav_cta">Agenda una cita</span>
     </a>
   </div>
 </nav>
@@ -83,25 +95,25 @@
 
   <div class="hero-text">
     <div class="hero-badge">
-      <i class="fa fa-map-marker-alt"></i>&nbsp; Consultorio Ortomesa · Armenia, Quindío
+      <i class="fa fa-map-marker-alt"></i>&nbsp; <span data-i18n="hero_badge">Consultorio Ortomesa · Armenia, Quindío</span>
     </div>
-    <h1>Tratamiento del dolor<br><em>articular</em> con tecnología de punta</h1>
-    <p class="hero-sub">
+    <h1 data-i18n="hero_title">Tratamiento del dolor<br><em>articular</em> con tecnología de punta</h1>
+    <p class="hero-sub" data-i18n="hero_sub">
       En Ortomesa contamos con más de 15 años de experiencia en cirugía ortopédica,
       medicina regenerativa y ondas de choque para mejorar tu calidad de vida.
     </p>
     <div class="hero-btns">
       <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
          class="btn-primary" target="_blank">
-        <i class="fab fa-whatsapp"></i> Agenda tu cita
+        <i class="fab fa-whatsapp"></i> <span data-i18n="hero_btn_cta">Agenda tu cita</span>
       </a>
-      <a href="#conoceme" class="btn-outline">Conoce más <i class="fa fa-arrow-down"></i></a>
+      <a href="#conoceme" class="btn-outline"><span data-i18n="hero_btn_more">Conoce más</span> <i class="fa fa-arrow-down"></i></a>
     </div>
 
     <div class="hero-stats">
-      <div class="stat"><strong>+15</strong><span>años de experiencia</span></div>
-      <div class="stat"><strong>+5000</strong><span>procedimientos</span></div>
-      <div class="stat"><strong>100%</strong><span>compromiso</span></div>
+      <div class="stat"><strong>+15</strong><span data-i18n="stat_years">años de experiencia</span></div>
+      <div class="stat"><strong>+5000</strong><span data-i18n="stat_procedures">procedimientos</span></div>
+      <div class="stat"><strong>100%</strong><span data-i18n="stat_commitment">compromiso</span></div>
     </div>
   </div>
 
@@ -119,22 +131,22 @@
     <div class="feature-card">
       <div class="feature-icon"><i class="fa fa-hospital"></i></div>
       <div>
-        <h3>Tratamiento del dolor</h3>
-        <p>Rodilla, hombro, pie y codo tratados con métodos avanzados y mínimamente invasivos.</p>
+        <h3 data-i18n="feat1_title">Tratamiento del dolor</h3>
+        <p data-i18n="feat1_text">Rodilla, hombro, pie y codo tratados con métodos avanzados y mínimamente invasivos.</p>
       </div>
     </div>
     <div class="feature-card">
       <div class="feature-icon"><i class="fa fa-syringe"></i></div>
       <div>
-        <h3>Última tecnología</h3>
-        <p>Ondas de choque y células de regeneración para mejorar tu movilidad sin cirugía.</p>
+        <h3 data-i18n="feat2_title">Última tecnología</h3>
+        <p data-i18n="feat2_text">Ondas de choque y células de regeneración para mejorar tu movilidad sin cirugía.</p>
       </div>
     </div>
     <div class="feature-card">
       <div class="feature-icon"><i class="fa fa-stethoscope"></i></div>
       <div>
-        <h3>Cirugía especializada</h3>
-        <p>Solo cuando es necesario, evaluando siempre todas las alternativas disponibles.</p>
+        <h3 data-i18n="feat3_title">Cirugía especializada</h3>
+        <p data-i18n="feat3_text">Solo cuando es necesario, evaluando siempre todas las alternativas disponibles.</p>
       </div>
     </div>
   </div>
@@ -152,33 +164,33 @@
              alt="Dr. Jorge Iván Mesa">
         <div class="about-badge">
           <strong>+5000</strong>
-          <span>procedimientos<br>exitosos</span>
+          <span data-i18n="about_badge">procedimientos<br>exitosos</span>
         </div>
       </div>
 
       <div class="about-content">
         <div class="section-head" style="text-align:left; margin-bottom:1.4rem;">
-          <div class="tag">Nuestro especialista</div>
+          <div class="tag" data-i18n="about_tag">Nuestro especialista</div>
           <h2>Dr. Jorge Iván Mesa</h2>
         </div>
-        <p>Médico ortopedista con más de 15 años de experiencia, responsable y comprometido con
+        <p data-i18n="about_p1">Médico ortopedista con más de 15 años de experiencia, responsable y comprometido con
            sus pacientes y sus familias. En continua actualización médica e investigativa, con
            sentido social y de pertenencia.</p>
-        <p>Supraespecialista en Cirugía de Hombro y Rodilla, Cirugía Artroscópica y Traumatología
+        <p data-i18n="about_p2">Supraespecialista en Cirugía de Hombro y Rodilla, Cirugía Artroscópica y Traumatología
            Deportiva. Experto en Ecografía Músculo-Esquelética (Universidad Francisco de Victoria,
            Madrid, España).</p>
-        <p>Miembro de la Sociedad Internacional de Ondas de Choque (ISWT) y expresidente de la
+        <p data-i18n="about_p3">Miembro de la Sociedad Internacional de Ondas de Choque (ISWT) y expresidente de la
            Sociedad Quindiana de Ortopedia (SCCOT).</p>
         <div class="about-pills">
-          <span class="pill">Hombro &amp; Rodilla</span>
-          <span class="pill">Artroscopia</span>
-          <span class="pill">Ondas de choque</span>
-          <span class="pill">Medicina Regenerativa</span>
-          <span class="pill">Traumatología deportiva</span>
+          <span class="pill" data-i18n="pill1">Hombro &amp; Rodilla</span>
+          <span class="pill" data-i18n="pill2">Artroscopia</span>
+          <span class="pill" data-i18n="pill3">Ondas de choque</span>
+          <span class="pill" data-i18n="pill4">Medicina Regenerativa</span>
+          <span class="pill" data-i18n="pill5">Traumatología deportiva</span>
         </div>
         <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
            class="btn-blue" target="_blank">
-          <i class="fab fa-whatsapp"></i> Agenda una consulta
+          <i class="fab fa-whatsapp"></i> <span data-i18n="about_btn">Agenda una consulta</span>
         </a>
       </div>
 
@@ -190,12 +202,12 @@
      CTA BAND
 ════════════════════════════════════════════ -->
 <div class="cta-band">
-  <h2>Es momento de acabar con el dolor</h2>
-  <p>Contamos con el conocimiento, la experiencia y la certificación para brindarte
+  <h2 data-i18n="cta_title">Es momento de acabar con el dolor</h2>
+  <p data-i18n="cta_text">Contamos con el conocimiento, la experiencia y la certificación para brindarte
      una terapia que mejorará tu calidad de vida.</p>
   <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
      class="btn-primary" target="_blank">
-    <i class="fab fa-whatsapp"></i> Escríbenos ahora
+    <i class="fab fa-whatsapp"></i> <span data-i18n="cta_btn">Escríbenos ahora</span>
   </a>
 </div>
 
@@ -205,9 +217,9 @@
 <section class="services-section" id="servicios">
   <div class="inner">
     <div class="section-head">
-      <div class="tag">Nuestros servicios</div>
-      <h2>¿En qué podemos ayudarte?</h2>
-      <p>Tratamientos especializados en medicina regenerativa, ondas de choque y terapias
+      <div class="tag" data-i18n="svc_tag">Nuestros servicios</div>
+      <h2 data-i18n="svc_title">¿En qué podemos ayudarte?</h2>
+      <p data-i18n="svc_sub">Tratamientos especializados en medicina regenerativa, ondas de choque y terapias
          biológicas para mejorar tu dolor y recuperar tu bienestar.</p>
     </div>
 
@@ -217,8 +229,8 @@
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img1.jpg" alt="Lesión de rodilla">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
-          <h3>Lesión de rodilla</h3>
-          <p>Las lesiones de rodilla son comunes y pueden afectar a personas de todas las edades y niveles de actividad.</p>
+          <h3 data-i18n="svc1_title">Lesión de rodilla</h3>
+          <p data-i18n="svc1_text">Las lesiones de rodilla son comunes y pueden afectar a personas de todas las edades y niveles de actividad.</p>
         </div>
       </div>
 
@@ -226,8 +238,8 @@
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img2.jpg" alt="Lesión de hombro">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
-          <h3>Lesión de hombro</h3>
-          <p>Las lesiones de hombro pueden ser debilitantes y afectar significativamente la calidad de vida de una persona.</p>
+          <h3 data-i18n="svc2_title">Lesión de hombro</h3>
+          <p data-i18n="svc2_text">Las lesiones de hombro pueden ser debilitantes y afectar significativamente la calidad de vida de una persona.</p>
         </div>
       </div>
 
@@ -235,8 +247,8 @@
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img3.jpg" alt="Lesión de codo">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
-          <h3>Lesión de codo</h3>
-          <p>El codo es susceptible a diversas lesiones que limitan la flexión, extensión y rotación del antebrazo.</p>
+          <h3 data-i18n="svc3_title">Lesión de codo</h3>
+          <p data-i18n="svc3_text">El codo es susceptible a diversas lesiones que limitan la flexión, extensión y rotación del antebrazo.</p>
         </div>
       </div>
 
@@ -244,8 +256,8 @@
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img4.jpg" alt="Lesión de pie">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
-          <h3>Lesión de pie</h3>
-          <p>Las lesiones de pie pueden afectar gravemente la movilidad y la calidad de vida de una persona.</p>
+          <h3 data-i18n="svc4_title">Lesión de pie</h3>
+          <p data-i18n="svc4_text">Las lesiones de pie pueden afectar gravemente la movilidad y la calidad de vida de una persona.</p>
         </div>
       </div>
 
@@ -253,8 +265,8 @@
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img5.jpg" alt="Ondas de choque">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
-          <h3>Ondas de choque</h3>
-          <p>Técnica no invasiva que utiliza ondas acústicas de alta energía para estimular la curación y reducir el dolor.</p>
+          <h3 data-i18n="svc5_title">Ondas de choque</h3>
+          <p data-i18n="svc5_text">Técnica no invasiva que utiliza ondas acústicas de alta energía para estimular la curación y reducir el dolor.</p>
         </div>
       </div>
 
@@ -262,8 +274,8 @@
         <img src="https://www.jorgeivanmesa.com/assets/img/services/service-img6.jpg" alt="Células regenerativas">
         <div class="svc-body">
           <div class="svc-icon"><i class="fa fa-check-circle"></i></div>
-          <h3>Células regenerativas</h3>
-          <p>Repara tejidos dañados y estimula la regeneración natural del cuerpo con tus propios recursos biológicos.</p>
+          <h3 data-i18n="svc6_title">Células regenerativas</h3>
+          <p data-i18n="svc6_text">Repara tejidos dañados y estimula la regeneración natural del cuerpo con tus propios recursos biológicos.</p>
         </div>
       </div>
 
@@ -276,8 +288,8 @@
 ════════════════════════════════════════════ -->
 <section class="testimonials" id="testimonios">
   <div class="section-head">
-    <div class="tag">Testimonios</div>
-    <h2>Lo que dicen nuestros pacientes</h2>
+    <div class="tag" data-i18n="testi_tag">Testimonios</div>
+    <h2 data-i18n="testi_title">Lo que dicen nuestros pacientes</h2>
   </div>
   <div class="testi-grid">
     <div class="testi-img">
@@ -287,19 +299,19 @@
     <div class="testi-cards">
       <div class="testi-card">
         <div class="quote">"</div>
-        <p>Realmente una excelente atención, se siente que nos escucha, nos explica y su calidad
+        <p data-i18n="testi1_text">Realmente una excelente atención, se siente que nos escucha, nos explica y su calidad
            humana contribuyen a la mejoría… tratamientos médicos muy acertados… gracias porque
            gracias a todo lo expuesto mi mamá hoy está bien.</p>
         <div class="testi-author">Alba Carolina Molano</div>
-        <div class="testi-role">Paciente</div>
+        <div class="testi-role" data-i18n="testi_role">Paciente</div>
       </div>
       <div class="testi-card">
         <div class="quote">"</div>
-        <p>Excelente médico. Sus tratamientos son confiables, seguros y efectivos. Es una excelente
+        <p data-i18n="testi2_text">Excelente médico. Sus tratamientos son confiables, seguros y efectivos. Es una excelente
            persona y profesional. Recomendado 100%. La persona que le asiste es excelente y la
            experiencia siempre es buena.</p>
         <div class="testi-author">Rubiela Rubio</div>
-        <div class="testi-role">Paciente</div>
+        <div class="testi-role" data-i18n="testi_role">Paciente</div>
       </div>
     </div>
   </div>
@@ -314,7 +326,7 @@
     <div>
       <img src="img/logo-ortomesa-ortopedia-armenia.png"
            alt="Jorge Iván Mesa – Ortopedia Especializada" class="footer-logo-img">
-      <p>Es momento de calmar el dolor y mejorar tu calidad de vida.
+      <p data-i18n="footer_desc">Es momento de calmar el dolor y mejorar tu calidad de vida.
          En Ortomesa estamos para ayudarte.</p>
       <div class="footer-socials">
         <a href="https://www.facebook.com/profile.php?id=100063508813069" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -324,17 +336,17 @@
     </div>
 
     <div>
-      <h4>Contáctanos</h4>
+      <h4 data-i18n="footer_contact_title">Contáctanos</h4>
       <ul class="footer-contact">
         <li>
           <i class="fa fa-map-marker-alt"></i>
-          <span>Cra 14 No. 8 Norte – 63, Edf. Cañaveral, Consultorio 401. Armenia, Quindío</span>
+          <span data-i18n="footer_address">Cra 14 No. 8 Norte – 63, Edf. Cañaveral, Consultorio 401. Armenia, Quindío</span>
         </li>
         <li>
           <i class="fa fa-phone"></i>
           <span>
             <a href="tel:576067382184">Tel: 606 738 2184</a><br>
-            <a href="https://wa.me/573173062308" target="_blank">Móvil: +(57) 317 306 2308</a>
+            <a href="https://wa.me/573173062308" target="_blank" data-i18n="footer_mobile">Móvil: +(57) 317 306 2308</a>
           </span>
         </li>
         <li>
@@ -345,19 +357,19 @@
     </div>
 
     <div>
-      <h4>Horario de atención</h4>
+      <h4 data-i18n="footer_hours_title">Horario de atención</h4>
       <ul class="footer-hours">
-        <li>Lunes    <span>8:00 am – 6:00 pm</span></li>
-        <li>Martes   <span>8:00 am – 6:00 pm</span></li>
-        <li>Miércoles<span>8:00 am – 6:00 pm</span></li>
-        <li>Jueves   <span>8:00 am – 6:00 pm</span></li>
-        <li>Viernes  <span>8:00 am – 6:00 pm</span></li>
+        <li data-i18n="footer_mon">Lunes    <span>8:00 am – 6:00 pm</span></li>
+        <li data-i18n="footer_tue">Martes   <span>8:00 am – 6:00 pm</span></li>
+        <li data-i18n="footer_wed">Miércoles<span>8:00 am – 6:00 pm</span></li>
+        <li data-i18n="footer_thu">Jueves   <span>8:00 am – 6:00 pm</span></li>
+        <li data-i18n="footer_fri">Viernes  <span>8:00 am – 6:00 pm</span></li>
       </ul>
     </div>
 
   </div>
   <div class="footer-bottom">
-    <p>&copy; 2026 Ortomesa – Consultorio Ortopédico Armenia &nbsp;·&nbsp;
+    <p data-i18n="footer_copy">&copy; 2026 Ortomesa – Consultorio Ortopédico Armenia &nbsp;·&nbsp;
        Desarrollado por <a href="https://vamosarayar.com/" target="_blank">Rayar</a></p>
   </div>
 </footer>
@@ -369,6 +381,7 @@
 </a>
 
 <!-- JavaScript propio -->
+<script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

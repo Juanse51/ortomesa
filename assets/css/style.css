@@ -54,6 +54,32 @@ body {
   transition: color .2s;
 }
 .topbar .socials a:hover { color: #fff; }
+.topbar .right { display: flex; align-items: center; gap: 1.2rem; }
+
+/* ── SELECTOR DE IDIOMA ── */
+.lang-switch { display: flex; gap: .4rem; }
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,.25);
+  color: rgba(255,255,255,.75);
+  font-family: inherit;
+  font-size: .7rem;
+  font-weight: 600;
+  padding: .22rem .5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s;
+}
+.lang-btn svg { width: 18px; height: 12px; border-radius: 2px; display: block; }
+.lang-btn:hover { color: #fff; border-color: rgba(255,255,255,.55); }
+.lang-btn.active {
+  background: rgba(255,255,255,.14);
+  color: #fff;
+  border-color: rgba(255,255,255,.5);
+}
 
 /* ── NAV ── */
 nav {
