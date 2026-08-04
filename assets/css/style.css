@@ -264,6 +264,7 @@ nav {
 }
 .hc-card img {
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
@@ -742,4 +743,69 @@ body.modal-open { overflow: hidden; }
   .svc-modal-overlay { padding: 1rem; }
   .svc-modal-img { height: 150px; }
   .svc-modal-body { padding: 1.2rem 1.3rem 1.5rem; }
+}
+
+/* ── MOTIVOS DE CONSULTA (SEO / cola larga) ── */
+.conditions { margin-top: 3.5rem; text-align: center; }
+.conditions h3 {
+  font-size: 1rem;
+  color: var(--blue-dark);
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+.cond-chips { display: flex; flex-wrap: wrap; gap: .55rem; justify-content: center; }
+.cond-chips span {
+  background: var(--white);
+  border: 1px solid var(--blue-pale);
+  color: var(--gray);
+  font-size: .78rem;
+  font-weight: 500;
+  padding: .45rem .95rem;
+  border-radius: 999px;
+}
+
+/* ── PREGUNTAS FRECUENTES ── */
+.faq-section { background: var(--blue-50); padding: 5rem 0; }
+.faq-section > .inner { max-width: 880px; margin: auto; padding: 0 2rem; }
+.faq-list { margin-top: 2.5rem; }
+.faq-item {
+  background: var(--white);
+  border: 1px solid var(--blue-pale);
+  border-radius: 12px;
+  margin-bottom: .8rem;
+  transition: box-shadow .2s;
+}
+.faq-item[open] { box-shadow: 0 8px 30px rgba(10,31,68,.08); }
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.1rem 3.2rem 1.1rem 1.4rem;
+  font-size: .9rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+  position: relative;
+  transition: color .2s;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: '\f078';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  position: absolute;
+  right: 1.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--blue);
+  font-size: .78rem;
+  transition: transform .25s;
+}
+.faq-item[open] summary::after { transform: translateY(-50%) rotate(180deg); }
+.faq-item summary:hover { color: var(--blue); }
+.faq-answer { padding: 0 1.4rem 1.3rem; }
+.faq-answer p { font-size: .86rem; color: var(--gray); line-height: 1.75; }
+
+@media (max-width: 560px) {
+  .faq-item summary { font-size: .85rem; padding: 1rem 2.8rem 1rem 1.1rem; }
+  .faq-answer { padding: 0 1.1rem 1.1rem; }
+  .conditions h3 { font-size: .92rem; }
 }
