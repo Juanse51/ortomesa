@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.jorgeivanmesa.com/sitemap.xml
+Sitemap: https://ortomesa.com/sitemap.xml
