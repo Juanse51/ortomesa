@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.ortomesa.com/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -13,6 +13,86 @@
     <image:image>
       <image:loc>https://www.ortomesa.com/img/logo-ortomesa-ortopedia-armenia.png</image:loc>
       <image:title>Ortomesa – Dr. Jorge Iván Mesa, ortopedista en Armenia, Quindío</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ortomesa.com/dolor-de-rodilla-armenia</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.ortomesa.com/img/dolor-de-rodilla-armenia.webp</image:loc>
+      <image:title>Paciente con dolor de rodilla en consulta ortopédica en Armenia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ortomesa.com/dolor-de-hombro-armenia</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.ortomesa.com/img/dolor-de-hombro-manguito-rotador-armenia.webp</image:loc>
+      <image:title>Paciente con dolor de hombro por lesión del manguito rotador en Armenia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ortomesa.com/epicondilitis-codo-de-tenista</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.ortomesa.com/img/epicondilitis-codo-de-tenista-armenia.webp</image:loc>
+      <image:title>Paciente con dolor de codo por epicondilitis en Armenia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ortomesa.com/fascitis-plantar-armenia</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.ortomesa.com/img/fascitis-plantar-dolor-de-talon-armenia.webp</image:loc>
+      <image:title>Paciente con dolor de talón por fascitis plantar en Armenia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ortomesa.com/ondas-de-choque-armenia</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.ortomesa.com/img/terapia-ondas-de-choque-armenia.webp</image:loc>
+      <image:title>Terapia de ondas de choque en el consultorio Ortomesa, Armenia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ortomesa.com/medicina-regenerativa-armenia</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.ortomesa.com/img/medicina-regenerativa-plasma-rico-en-plaquetas-armenia.webp</image:loc>
+      <image:title>Plasma rico en plaquetas para medicina regenerativa en Armenia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ortomesa.com/artroscopia-rodilla-hombro</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.ortomesa.com/img/recuperacion-artroscopia-rodilla-armenia.webp</image:loc>
+      <image:title>Paciente recuperado después de una artroscopia de rodilla en Armenia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ortomesa.com/dr-jorge-ivan-mesa</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.ortomesa.com/img/dr-jorge-ivan-mesa-ortopedista-armenia.webp</image:loc>
+      <image:title>Dr. Jorge Iván Mesa, ortopedista en Armenia, Quindío</image:title>
     </image:image>
   </url>
 </urlset>

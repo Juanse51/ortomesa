@@ -64,7 +64,7 @@
   <div class="inner">
     <div class="info">
       <span><i class="fa fa-envelope"></i> ortomesa@hotmail.com</span>
-      <span><i class="fa fa-clock"></i> <span data-i18n="topbar_hours">Lun – Vie &nbsp;8:00 am – 5:00 pm</span></span>
+      <span><i class="fa fa-clock"></i> <span data-i18n="topbar_hours">Lun – Vie &nbsp;8:00 am – 6:00 pm</span></span>
       <span><i class="fa fa-map-marker-alt"></i> Armenia, Quindío, Colombia</span>
     </div>
     <div class="right">
@@ -98,8 +98,19 @@
     </a>
     <ul class="nav-links">
       <li><a href="#" data-i18n="nav_home">Inicio</a></li>
-      <li><a href="#conoceme" data-i18n="nav_about">¿Quiénes somos?</a></li>
-      <li><a href="#servicios" data-i18n="nav_services">Servicios</a></li>
+      <li><a href="/dr-jorge-ivan-mesa" data-i18n="nav_about">¿Quiénes somos?</a></li>
+      <li class="has-sub">
+        <a href="#servicios"><span data-i18n="nav_services">Servicios</span> <i class="fa fa-chevron-down"></i></a>
+        <ul class="sub-menu">
+          <li><a href="/dolor-de-rodilla-armenia" data-i18n="nav_sub1">Dolor de rodilla</a></li>
+          <li><a href="/dolor-de-hombro-armenia" data-i18n="nav_sub2">Dolor de hombro y manguito rotador</a></li>
+          <li><a href="/epicondilitis-codo-de-tenista" data-i18n="nav_sub3">Epicondilitis o codo de tenista</a></li>
+          <li><a href="/fascitis-plantar-armenia" data-i18n="nav_sub4">Fascitis plantar y dolor de talón</a></li>
+          <li><a href="/ondas-de-choque-armenia" data-i18n="nav_sub5">Terapia de ondas de choque</a></li>
+          <li><a href="/medicina-regenerativa-armenia" data-i18n="nav_sub6">Medicina regenerativa</a></li>
+          <li><a href="/artroscopia-rodilla-hombro" data-i18n="nav_sub7">Artroscopia de rodilla y hombro</a></li>
+        </ul>
+      </li>
       <li><a href="#preguntas" data-i18n="nav_faq">Preguntas</a></li>
       <li><a href="#testimonios" data-i18n="nav_testimonials">Testimonios</a></li>
       <li>
@@ -117,8 +128,15 @@
   <!-- Menú móvil -->
   <div class="mobile-menu" id="mobileMenu">
     <a href="#" data-i18n="nav_home">Inicio</a>
-    <a href="#conoceme" data-i18n="nav_about">¿Quiénes somos?</a>
+    <a href="/dr-jorge-ivan-mesa" data-i18n="nav_about">¿Quiénes somos?</a>
     <a href="#servicios" data-i18n="nav_services">Servicios</a>
+    <a href="/dolor-de-rodilla-armenia" class="mobile-sub" data-i18n="nav_sub1">Dolor de rodilla</a>
+    <a href="/dolor-de-hombro-armenia" class="mobile-sub" data-i18n="nav_sub2">Dolor de hombro y manguito rotador</a>
+    <a href="/epicondilitis-codo-de-tenista" class="mobile-sub" data-i18n="nav_sub3">Epicondilitis o codo de tenista</a>
+    <a href="/fascitis-plantar-armenia" class="mobile-sub" data-i18n="nav_sub4">Fascitis plantar y dolor de talón</a>
+    <a href="/ondas-de-choque-armenia" class="mobile-sub" data-i18n="nav_sub5">Terapia de ondas de choque</a>
+    <a href="/medicina-regenerativa-armenia" class="mobile-sub" data-i18n="nav_sub6">Medicina regenerativa</a>
+    <a href="/artroscopia-rodilla-hombro" class="mobile-sub" data-i18n="nav_sub7">Artroscopia de rodilla y hombro</a>
     <a href="#preguntas" data-i18n="nav_faq">Preguntas</a>
     <a href="#testimonios" data-i18n="nav_testimonials">Testimonios</a>
     <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
@@ -230,7 +248,7 @@
            sus pacientes y sus familias. En continua actualización médica e investigativa, con
            sentido social y de pertenencia.</p>
         <p data-i18n="about_p2">Supraespecialista en Cirugía de Hombro y Rodilla, Cirugía Artroscópica y Traumatología
-           Deportiva. Experto en Ecografía Músculo-Esquelética (Universidad Francisco de Victoria,
+           Deportiva. Experto en Ecografía Músculo-Esquelética (Universidad Francisco de Vitoria,
            Madrid, España).</p>
         <p data-i18n="about_p3">Miembro de la Sociedad Internacional de Ondas de Choque (ISWT) y expresidente de la
            Sociedad Quindiana de Ortopedia (SCCOT).</p>
@@ -245,6 +263,7 @@
            class="btn-blue" target="_blank">
           <i class="fab fa-whatsapp"></i> <span data-i18n="about_btn">Agenda una consulta</span>
         </a>
+        <a href="/dr-jorge-ivan-mesa" class="about-more"><span data-i18n="about_more">Conoce su trayectoria</span> <i class="fa fa-arrow-right"></i></a>
       </div>
 
     </div>
@@ -278,7 +297,7 @@
 
     <div class="services-grid">
 
-      <div class="svc-card" data-service="1">
+      <a class="svc-card" href="/dolor-de-rodilla-armenia">
         <img src="img/servicio-lesion-rodilla.jpg" loading="lazy"
              alt="Mujer con dolor de rodilla por artrosis y lesión de menisco">
         <div class="svc-body">
@@ -287,9 +306,9 @@
           <p data-i18n="svc1_text">Artrosis de rodilla (gonartrosis), lesión de menisco, condromalacia rotuliana y ligamento cruzado: tratamos el dolor que aparece al caminar, flexionar o subir escaleras.</p>
           <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
-      </div>
+      </a>
 
-      <div class="svc-card" data-service="2">
+      <a class="svc-card" href="/dolor-de-hombro-armenia">
         <img src="img/servicio-lesion-hombro.jpg" loading="lazy"
              alt="Hombre con dolor de hombro por lesión del manguito rotador">
         <div class="svc-body">
@@ -298,9 +317,9 @@
           <p data-i18n="svc2_text">Manguito rotador, tendinitis del supraespinoso, bursitis y artrosis acromioclavicular: recupera la movilidad de tu hombro y duerme sin dolor.</p>
           <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
-      </div>
+      </a>
 
-      <div class="svc-card" data-service="3">
+      <a class="svc-card" href="/epicondilitis-codo-de-tenista">
         <img src="img/servicio-lesion-codo.jpg" loading="lazy"
              alt="Paciente con dolor de codo por epicondilitis o codo de tenista">
         <div class="svc-body">
@@ -309,9 +328,9 @@
           <p data-i18n="svc3_text">Epicondilitis o codo de tenista, epitrocleítis y bursitis: alivia el dolor que limita tu fuerza de agarre y tu trabajo diario.</p>
           <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
-      </div>
+      </a>
 
-      <div class="svc-card" data-service="4">
+      <a class="svc-card" href="/fascitis-plantar-armenia">
         <img src="img/servicio-lesion-pie.jpg" loading="lazy"
              alt="Paciente con dolor en la planta del pie por fascitis plantar">
         <div class="svc-body">
@@ -320,9 +339,9 @@
           <p data-i18n="svc4_text">Fascitis plantar, espolón calcáneo, tendinitis de Aquiles y dolor en el talón o la planta del pie: vuelve a caminar sin molestias.</p>
           <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
-      </div>
+      </a>
 
-      <div class="svc-card" data-service="5">
+      <a class="svc-card" href="/ondas-de-choque-armenia">
         <img src="img/servicio-ondas-de-choque.jpg" loading="lazy"
              alt="Aplicación de terapia de ondas de choque en el consultorio Ortomesa">
         <div class="svc-body">
@@ -331,9 +350,9 @@
           <p data-i18n="svc5_text">Técnica no invasiva de alta energía, ideal para fascitis plantar, epicondilitis y tendinitis calcificada. Sin cirugía y sin incapacidad.</p>
           <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
-      </div>
+      </a>
 
-      <div class="svc-card" data-service="6">
+      <a class="svc-card" href="/medicina-regenerativa-armenia">
         <img src="img/servicio-celulas-regenerativas.jpg" loading="lazy"
              alt="Preparación de plasma rico en plaquetas para medicina regenerativa">
         <div class="svc-body">
@@ -342,31 +361,31 @@
           <p data-i18n="svc6_text">Plasma rico en plaquetas y terapias biológicas para el cartílago desgastado, la artrosis y las tendinopatías crónicas.</p>
           <span class="svc-more"><span data-i18n="svc_more">Ver más</span> <i class="fa fa-arrow-right"></i></span>
         </div>
-      </div>
+      </a>
 
     </div>
 
     <div class="conditions">
       <h3 data-i18n="cond_title">Motivos de consulta más frecuentes</h3>
       <div class="cond-chips" data-i18n="cond_chips">
-        <span>Artrosis de rodilla (gonartrosis)</span>
-        <span>Lesión de menisco</span>
-        <span>Condromalacia rotuliana</span>
-        <span>Ligamento cruzado anterior</span>
-        <span>Bursitis de rodilla</span>
-        <span>Tendinitis rotuliana</span>
-        <span>Cartílago de rodilla desgastado</span>
-        <span>Dolor de rodilla al subir escaleras</span>
-        <span>Manguito rotador</span>
-        <span>Tendinitis del supraespinoso</span>
-        <span>Bursitis de hombro</span>
-        <span>Artrosis acromioclavicular</span>
-        <span>Epicondilitis o codo de tenista</span>
-        <span>Fascitis plantar</span>
-        <span>Espolón calcáneo</span>
-        <span>Tendinitis de Aquiles</span>
-        <span>Dolor en la planta del pie</span>
-        <span>Artroscopia de rodilla y hombro</span>
+        <a href="/dolor-de-rodilla-armenia">Artrosis de rodilla (gonartrosis)</a>
+        <a href="/dolor-de-rodilla-armenia">Lesión de menisco</a>
+        <a href="/dolor-de-rodilla-armenia">Condromalacia rotuliana</a>
+        <a href="/dolor-de-rodilla-armenia">Ligamento cruzado anterior</a>
+        <a href="/dolor-de-rodilla-armenia">Bursitis de rodilla</a>
+        <a href="/dolor-de-rodilla-armenia">Tendinitis rotuliana</a>
+        <a href="/medicina-regenerativa-armenia">Cartílago de rodilla desgastado</a>
+        <a href="/dolor-de-rodilla-armenia">Dolor de rodilla al subir escaleras</a>
+        <a href="/dolor-de-hombro-armenia">Manguito rotador</a>
+        <a href="/dolor-de-hombro-armenia">Tendinitis del supraespinoso</a>
+        <a href="/dolor-de-hombro-armenia">Bursitis de hombro</a>
+        <a href="/dolor-de-hombro-armenia">Artrosis acromioclavicular</a>
+        <a href="/epicondilitis-codo-de-tenista">Epicondilitis o codo de tenista</a>
+        <a href="/fascitis-plantar-armenia">Fascitis plantar</a>
+        <a href="/fascitis-plantar-armenia">Espolón calcáneo</a>
+        <a href="/fascitis-plantar-armenia">Tendinitis de Aquiles</a>
+        <a href="/fascitis-plantar-armenia">Dolor en la planta del pie</a>
+        <a href="/artroscopia-rodilla-hombro">Artroscopia de rodilla y hombro</a>
       </div>
     </div>
   </div>
@@ -491,6 +510,20 @@
     </div>
 
     <div>
+      <h4 data-i18n="footer_services_title">Servicios</h4>
+      <ul class="footer-links">
+        <li><a href="/dolor-de-rodilla-armenia" data-i18n="nav_sub1">Dolor de rodilla</a></li>
+        <li><a href="/dolor-de-hombro-armenia" data-i18n="nav_sub2">Dolor de hombro y manguito rotador</a></li>
+        <li><a href="/epicondilitis-codo-de-tenista" data-i18n="nav_sub3">Epicondilitis o codo de tenista</a></li>
+        <li><a href="/fascitis-plantar-armenia" data-i18n="nav_sub4">Fascitis plantar y dolor de talón</a></li>
+        <li><a href="/ondas-de-choque-armenia" data-i18n="nav_sub5">Terapia de ondas de choque</a></li>
+        <li><a href="/medicina-regenerativa-armenia" data-i18n="nav_sub6">Medicina regenerativa</a></li>
+        <li><a href="/artroscopia-rodilla-hombro" data-i18n="nav_sub7">Artroscopia de rodilla y hombro</a></li>
+        <li><a href="/dr-jorge-ivan-mesa">Dr. Jorge Iván Mesa</a></li>
+      </ul>
+    </div>
+
+    <div>
       <h4 data-i18n="footer_contact_title">Contáctanos</h4>
       <ul class="footer-contact">
         <li>
@@ -500,7 +533,7 @@
         <li>
           <i class="fa fa-phone"></i>
           <span>
-            <a href="tel:576067382184">Tel: 606 738 2184</a><br>
+            <a href="tel:+576067382184">Tel: 606 738 2184</a><br>
             <a href="https://wa.me/573173062308" target="_blank" data-i18n="footer_mobile">Móvil: +(57) 317 306 2308</a>
           </span>
         </li>
@@ -528,29 +561,6 @@
        Desarrollado por <a href="https://vamosarayar.com/" target="_blank">Rayar</a></p>
   </div>
 </footer>
-
-<!-- ══════════════════════════════════════════
-     MODAL DE SERVICIOS
-════════════════════════════════════════════ -->
-<div class="svc-modal-overlay" id="svcModalOverlay">
-  <div class="svc-modal" role="dialog" aria-modal="true" aria-labelledby="svcModalTitle">
-    <button class="svc-modal-close" id="svcModalClose" aria-label="Cerrar">&times;</button>
-    <img class="svc-modal-img" id="svcModalImg" src="" alt="">
-    <div class="svc-modal-body">
-      <h3 id="svcModalTitle"></h3>
-      <p class="svc-modal-desc" id="svcModalDesc"></p>
-      <h4><i class="fa fa-briefcase-medical"></i> <span data-i18n="modal_treatment_label">Tratamiento</span></h4>
-      <ul id="svcModalTreatment"></ul>
-      <h4><i class="fa fa-heart-pulse"></i> <span data-i18n="modal_recovery_label">Recomendaciones para la recuperación</span></h4>
-      <ul id="svcModalRecovery"></ul>
-      <p class="svc-modal-note" data-i18n="modal_disclaimer">Esta información es orientativa: cada caso se evalúa de forma individual en consulta.</p>
-      <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
-         class="btn-blue" target="_blank">
-        <i class="fab fa-whatsapp"></i> <span data-i18n="modal_cta">Agenda tu valoración</span>
-      </a>
-    </div>
-  </div>
-</div>
 
 <!-- ── WhatsApp FAB ── -->
 <a href="https://wa.me/573173062308?text=Hola%2C%20quiero%20agendar%20una%20cita"
